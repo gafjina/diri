@@ -1,0 +1,24 @@
+{
+  "name": "my-nextjs-quotes-app",
+  "version": "1.0.0",
+  "description": "A simple Next.js application to display quotes with a beautiful background and fade-in effects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "nextjs",
+    "quotes",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
