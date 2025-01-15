@@ -5,6 +5,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Afirmasi Diri</title>
+        <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
       </Head>
       <Component {...pageProps} />
