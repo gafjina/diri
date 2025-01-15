@@ -9,7 +9,7 @@
     position: absolute;
     left: -100%; /* Start off-screen to the left */
     opacity: 0;
-    animation: slideIn 8s ease-in-out forwards; /* Extend animation duration */
+    animation: slideIn 10s ease-in-out forwards; /* Extend animation duration */
     width: 80%; /* Default width */
     box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
@@ -19,17 +19,17 @@
         opacity: 0;
         transform: translateX(0);
     }
-    20% {
+    50% {
         opacity: 1;
-        transform: translateX(20%);
+        transform: translateX(100vw); /* Move to the center */
     }
     80% {
         opacity: 1;
-        transform: translateX(80%);
+        transform: translateX(100vw); /* Stay in the center */
     }
     100% {
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(200vw); /* Move out of the screen */
     }
 }
 

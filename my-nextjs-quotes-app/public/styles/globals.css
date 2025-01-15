@@ -26,3 +26,38 @@ body, html {
   align-items: center;
   box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  font-size: 0.8rem;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: auto;
+  padding: 10px 0;
+}
+
+.love {
+  color: red;
+}
+
+/* Tambahkan ini di bagian bawah file globals.css */
+.bubble {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease-out; /* Tambahkan transition untuk animasi yang lebih halus */
+}

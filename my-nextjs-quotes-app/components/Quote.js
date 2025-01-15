@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Quote.module.css';
 
 const getRandomPosition = () => {
-    const positions = ['30%', '50%', '70%']; // Random positions (middle and bottom)
+    const positions = ['10%', '20%', '30%', '70%', '80%']; // Random positions (middle and bottom)
     return positions[Math.floor(Math.random() * positions.length)];
 };
 
